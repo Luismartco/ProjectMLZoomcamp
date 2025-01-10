@@ -1,0 +1,47 @@
+Numero,Nombre,Apellido,Provincia,Edad,Sexo,Diagnostico,Especialidad,Fecha,Costo
+2471,Zola,Davida,Moca,80,F,TULAREMIA GASTROINTESTINAL,Bioquimica,3/9/2021,9162.67
+229,Aretha,Marleen,La Vega,89,F,TULAREMIA GENERALIZADA,Oftalmologia,3/17/2021,2026.96
+16,Sharla,Steph,Hermanas Mirabal,67,F,OTRAS FORMAS DE TULAREMIA,Endocrinologia y nutricion,7/6/2021,9542.65
+1,Gresham,Timotha,Perdernales,33,F,TULAREMIA NO ESPECIFICADA,Dermatologia,7/7/2021,8906.99
+87,Hayleigh,Rosalind,Barahora,34,F,CARBUNCO CUTANEO,Neurologia,7/16/2021,9436.84
+433,Mitchell,Cassandra,Azua,87,M,CARBUNCO PULMONAR,Bioquimica,9/2/2021,5795.35
+513,Reginald,Katharine,Santo Domingo,31,M,CARBUNCO GASTROINTESTINAL,Bioquimica,10/5/2021,8041.21
+847,Briony,Chrissie,San Juan,31,M,CARBUNCO SEPTICO,Dermatologia,10/22/2021,6824.72
+431,Sheryl,Porter,Peravia,88,F,OTRAS FORMAS DE CARBUNCO,Neurologia,2/1/2022,6451.74
+994,Jaylene,Regina,Los Guandules,38,F,CARBUNCO NO ESPECIFICADO,Traumatologia,2/8/2022,4233.4
+89,Arlo,Lionel,Los Guandules,74,F,BRUCELOSIS DEBIDA A BRUCELLA MELITENSIS,Neumologia,4/6/2022,2227.5
+655,Kit,Star,Moca,66,M,BRUCELOSIS DEBIDA A BRUCELLA ABORTUS,Oftalmologia,6/14/2022,564.12
+831,Montague,Evangeline,La Vega,78,F,BRUCELOSIS DEBIDA A BRUCELLA SUIS,Endocrinologia y nutricion,8/2/2022,6748.24
+427,Kimberlyn,Hendrix,Los Guandules,38,F,BRUCELOSIS DEBIDA A BRUCELLA CANIS,Neumologia,8/18/2022,3782.19
+415,Warren,Coleen,Moca,30,F,OTRAS BRUCELOSIS,Oftalmologia,10/3/2022,8441.96
+627,Blythe,Mabel,La Vega,12,F,BRUCELOSIS NO ESPECIFICADA,Endocrinologia y nutricion,11/10/2022,1152.8
+903,Breanna,Lally,La Romana,58,F,MUERMO,Ginecologia y obstetricia,11/11/2022,3435.28
+509,Moriah,Symphony,Bayahibe,90,F,MELIOIDOSIS AGUDA Y FULMINANTE,Oftalmologia,12/5/2022,6510.43
+230,Delilah,Harleigh,Constanza,18,F,MELIOIDOSIS SUBAGUDA Y CRONICA,Endocrinologia y nutricion,12/23/2022,3916.18
+970,Radcliff,Giselle,Las Matas de Farfan,85,F,OTRAS MELIOIDOSIS,Neumologia,12/28/2022,7713.46
+1012,Joan,Roberts,Puerto Plata,52,F,MUERMO CRONICO,Dermatologia,2/3/2023,7123.88
+1023,Lara,Smith,Samana,36,F,MUERMO CUTANEO,Neurologia,3/12/2023,4835.57
+1034,Timothy,Hughes,Monte Plata,40,M,MELIOIDOSIS CRONICA,Bioquimica,4/25/2023,6253.29
+1045,Isabella,Moore,Santiago Rodriguez,29,F,TULAREMIA CUTANEA,Traumatologia,5/19/2023,9238.45
+1056,James,Johnson,El Seibo,60,M,CARBUNCO INTESTINAL,Gastroenterologia,6/21/2023,5032.12
+1067,Sophia,Williams,Hato Mayor,70,F,BRUCELOSIS GENERALIZADA,Endocrinologia y nutricion,7/30/2023,3945.76
+1078,Ethan,Brown,Bonao,54,M,BRUCELOSIS CARDIACA,Cardiologia,8/15/2023,8743.11
+1089,Chloe,Jones,Bayahibe,33,F,BRUCELOSIS MUSCULAR,Dermatologia,9/10/2023,4738.66
+1090,Olivia,Garcia,Punta Cana,38,F,MUERMO SEPTICO,Neurologia,10/20/2023,6342.47
+1101,Lucas,Martinez,La Vega,48,M,MELIOIDOSIS INESPECIFICA,Neumologia,11/15/2023,8123.54
+1023,David,Larissa,Santiago,45,M,TULAREMIA GASTROINTESTINAL,Medicina General,8/15/2021,4023.45
+145,Timothy,Scott,Duarte,29,M,TULAREMIA GENERALIZADA,Neurologia,5/21/2021,6789.00
+782,Karen,Douglas,Santo Domingo,72,F,OTRAS FORMAS DE TULAREMIA,Gastroenterologia,6/10/2021,8123.56
+3092,Rafael,Espino,Barahona,50,M,TULAREMIA PULMONAR,Neumologia,9/2/2021,9256.78
+564,Linda,Harper,La Romana,60,F,TULAREMIA OCULAR,Oftalmologia,12/13/2021,1934.67
+1328,Michael,Rogers,Puerto Plata,48,M,TULAREMIA NO ESPECIFICADA,Medicina Interna,11/5/2021,5678.99
+2123,Ana,Jimenez,Sanchez Ramirez,39,F,TULAREMIA CUTANEA,Dermatologia,4/7/2021,3524.12
+512,Victor,Morales,Bonao,55,M,TULAREMIA GASTROINTESTINAL,Infectologia,3/29/2021,6231.47
+3901,Emily,Smith,Samana,63,F,TULAREMIA GENERALIZADA,Hematologia,6/23/2021,7890.11
+1998,Luis,Fernandez,Azua,40,M,TULAREMIA OCULAR,Oftalmologia,7/30/2021,2034.89
+2856,Maria,Lopez,Dajabon,27,F,TULAREMIA PULMONAR,Neumologia,10/11/2021,8456.32
+1734,John,Garcia,Monte Cristi,53,M,TULAREMIA CUTANEA,Dermatologia,9/18/2021,4123.76
+321,Lorena,Martinez,Bahoruco,62,F,TULAREMIA GASTROINTESTINAL,Gastroenterologia,2/14/2021,7210.55
+4015,Carlos,Reyes,Elias Piña,34,M,TULAREMIA OCULAR,Oftalmologia,11/21/2021,2054.67
+875,Lisa,Rodriguez,San Juan,58,F,TULAREMIA GENERALIZADA,Infectologia,1/5/2021,6432.21
+2187,Oscar,Diaz,San Pedro de Macoris,41,M,TULAREMIA NO ESPECIFICADA,Medicina Interna,3/3/2021,7891.45
