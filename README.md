@@ -1,87 +1,87 @@
-# ProjectMLZoomcamp
+### ProjectMLZoomcamp
 
-El siguiente proyecto es la entrega del Capstone 1 en el Machine Learning Zoomcamp 2024.
+The following project is the submission for Capstone 2 in the Machine Learning Zoomcamp 2024.
 
-## Análisis de Datos para Predicción de Costos
-Este proyecto utiliza un modelo de árbol de decisiones para predecir la categorización de costos en función de diferentes variables presentes en un conjunto de datos médicos. El modelo clasifica los costos en tres categorías y evalúa la importancia relativa de las características del conjunto de datos para esta tarea.
+### Data Analysis for Cost Prediction
+This project uses a decision tree model to predict cost categorization based on different variables present in a medical dataset. The model classifies costs into three categories and evaluates the relative importance of dataset features for this task.
 
-## Estructura del Proyecto
+### Project Structure
 
-1. **Carga y Exploración de Datos**:
-   - Se carga un archivo CSV que contiene los datos.
-   - Se realiza una exploración inicial para entender las columnas y los tipos de datos.
+#### 1. Data Loading and Exploration
+   - A CSV file containing the data is loaded.
+   - An initial exploration is performed to understand the columns and data types.
 
-2. **Preprocesamiento de Datos**:
-   - Se eliminan filas con valores faltantes.
-   - Las variables categóricas se convierten en variables dummy (codificación one-hot).
-   - Se crea una nueva columna `Costo_categorico` para clasificar los costos en tres categorías mediante `pd.qcut`.
+#### 2. Data Preprocessing
+   - Rows with missing values are removed.
+   - Categorical variables are converted into dummy variables (one-hot encoding).
+   - A new column `Costo_categorico` is created to classify costs into three categories using `pd.qcut`.
 
-3. **División del Conjunto de Datos**:
-   - Los datos se dividen en conjuntos de entrenamiento (80%) y prueba (20%).
+#### 3. Dataset Splitting
+   - The data is split into training (80%) and testing (20%) sets.
 
-4. **Entrenamiento del Modelo**:
-   - Se utiliza un árbol de decisiones con una profundidad máxima de 5.
-   - El modelo se ajusta al conjunto de entrenamiento.
+#### 4. Model Training
+   - A decision tree with a maximum depth of 5 is used.
+   - The model is trained on the training set.
 
-5. **Evaluación del Modelo**:
-   - Se calcula la precisión y se genera un reporte de clasificación para el conjunto de prueba.
-   - Se muestra la estructura del árbol de decisiones para entender el proceso de toma de decisiones.
+#### 5. Model Evaluation
+   - Accuracy is calculated, and a classification report is generated for the test set.
+   - The decision tree structure is displayed to understand the decision-making process.
 
-6. **Análisis de Importancia de Características**:
-   - Se genera un gráfico de las 10 principales características que más influyen en las predicciones del modelo.
+#### 6. Feature Importance Analysis
+   - A plot of the top 10 features influencing model predictions is generated.
 
-## Resultados
+### Results
 
-### Precisión del Modelo
-- El modelo alcanzó una precisión del **40.00%** en el conjunto de prueba.
+#### Model Accuracy
+- The model achieved an accuracy of **40.00%** on the test set.
 
-### Importancia de Características
-Las cinco características más importantes para predecir los costos son:
+#### Feature Importance
+The five most important features for predicting costs are:
 
-| Característica                  | Importancia |
-|---------------------------------|-------------|
-| Especialidad_Neurologia         | 0.238697    |
-| Especialidad_Neumologia         | 0.224282    |
-| Provincia_Los Guandules         | 0.205819    |
-| Especialidad_Oftalmologia       | 0.174229    |
-| Provincia_Bayahibe              | 0.156972    |
+| Feature                         | Importance |
+|---------------------------------|------------|
+| Specialty_Neurology             | 0.238697   |
+| Specialty_Pulmonology           | 0.224282   |
+| Province_Los Guandules          | 0.205819   |
+| Specialty_Ophthalmology         | 0.174229   |
+| Province_Bayahibe               | 0.156972   |
 
-### Visualización de Características
-![Gráfico de importancia de características](/media/img.png)
+#### Feature Visualization
+![Feature Importance Chart](/media/img.png)
 
-### Estructura del Árbol de Decisiones
-Se proporciona una representación textual del árbol para entender las reglas generadas durante el entrenamiento.
+#### Decision Tree Structure
+A textual representation of the tree is provided to understand the rules generated during training.
 
 ```
-|--- Especialidad_Neurologia <= 0.50
-|   |--- Provincia_Los Guandules <= 0.50
-|   |   |--- Especialidad_Neumologia <= 0.50
-|   |   |   |--- Provincia_Bayahibe <= 0.50
-|   |   |   |   |--- Especialidad_Oftalmologia <= 0.50
+|--- Specialty_Neurology <= 0.50
+|   |--- Province_Los Guandules <= 0.50
+|   |   |--- Specialty_Pulmonology <= 0.50
+|   |   |   |--- Province_Bayahibe <= 0.50
+|   |   |   |   |--- Specialty_Ophthalmology <= 0.50
 |   |   |   |   |   |--- class: 2
-|   |   |   |   |--- Especialidad_Oftalmologia >  0.50
+|   |   |   |   |--- Specialty_Ophthalmology >  0.50
 |   |   |   |   |   |--- class: 0
-|   |   |   |--- Provincia_Bayahibe >  0.50
+|   |   |   |--- Province_Bayahibe >  0.50
 |   |   |   |   |--- class: 1
-|   |   |--- Especialidad_Neumologia >  0.50
+|   |   |--- Specialty_Pulmonology >  0.50
 |   |   |   |--- class: 2
-|   |--- Provincia_Los Guandules >  0.50
+|   |--- Province_Los Guandules >  0.50
 |   |   |--- class: 0
-|--- Especialidad_Neurologia >  0.50
+|--- Specialty_Neurology >  0.50
 |   |--- class: 1
 ```
 
-## Requisitos
+### Requirements
 - Python 3.x
-- Bibliotecas: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
+- Libraries: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
 
-## Ejecución del Proyecto
-1. Asegúrate de tener instaladas las bibliotecas requeridas.
-2. Coloca el archivo de datos (`Pacientes.csv`) en el mismo directorio que el script.
-3. Ejecuta el script de Python.
-4. Observa los resultados y visualizaciones generados.
+### Project Execution
+1. Ensure the required libraries are installed.
+2. Place the data file (`Pacientes.csv`) in the same directory as the script.
+3. Run the Python script.
+4. Observe the generated results and visualizations.
 
-## Conclusiones
-1. Las especialidades médicas y las provincias tienen una gran influencia en la predicción de costos.
-2. Aunque la precisión del modelo no es alta, proporciona información valiosa sobre las variables clave.
-3. Este análisis puede guiar futuras mejoras en el modelo y la recopilación de datos.
+### Conclusions
+1. Medical specialties and provinces have a significant influence on cost prediction.
+2. Although the model's accuracy is not high, it provides valuable insights into key variables.
+3. This analysis can guide future improvements in the model and data collection.
